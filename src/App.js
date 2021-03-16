@@ -24,6 +24,14 @@ function App() {
           generate
         </button>
       </form>
+      <article className="lorem-text">
+        <p>
+          Lorem ipsum dolor sit, amet consectetur adipisicing elit. Neque, quae.
+        </p>
+        <p>
+          Lorem ipsum dolor sit, amet consectetur adipisicing elit. Neque, quae.
+        </p>
+      </article>
     </section>
   );
 }
