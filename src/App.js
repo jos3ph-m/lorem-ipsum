@@ -7,7 +7,7 @@ function App() {
   const handleSubmit = (e) => {
     e.preventDefault();
     let amount = parseInt(count);
-    setText(data);
+    setText(data.slice(0, amount));
   };
 
   return (
