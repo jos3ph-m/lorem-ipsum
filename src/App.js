@@ -26,12 +26,9 @@ function App() {
         </button>
       </form>
       <article className="lorem-text">
-        <p>
-          Lorem ipsum dolor sit, amet consectetur adipisicing elit. Neque, quae.
-        </p>
-        <p>
-          Lorem ipsum dolor sit, amet consectetur adipisicing elit. Neque, quae.
-        </p>
+        {text.map((item, index) => {
+          return <p key={index}>{item}</p>;
+        })}
       </article>
     </section>
   );
