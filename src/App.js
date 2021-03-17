@@ -19,6 +19,8 @@ function App() {
           type="number"
           name="amount"
           id="amount"
+          min="0"
+          max="8"
           value={count}
           onChange={(e) => setCount(e.target.value)}
         />
