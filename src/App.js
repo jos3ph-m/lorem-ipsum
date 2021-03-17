@@ -6,6 +6,7 @@ function App() {
 
   const handleSubmit = (e) => {
     e.preventDefault();
+    setText(data);
   };
 
   return (
