@@ -7,6 +7,9 @@ function App() {
   const handleSubmit = (e) => {
     e.preventDefault();
     let amount = parseInt(count);
+    if (amount === 0) {
+      amount = 1;
+    }
     setText(data.slice(0, amount));
   };
 
